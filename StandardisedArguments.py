@@ -1,3 +1,4 @@
+# pylint: disable=C0103
 """
 Functions which help standardise how commandline arguments are structured
 

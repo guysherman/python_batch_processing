@@ -1,6 +1,15 @@
+# pylint: disable=C0103
+"""
+An object which handles recursively searching the file system,
+based on some search predicate supplied by the user
+"""
 import os
 
 class RecursiveSearch:
+    """
+    An object which handles recursively searching the file system,
+    based on some search predicate supplied by the user
+    """
     def __init__(self, predicate):
         """
         Constructs a new RecursiveSearch object which uses the given predicate

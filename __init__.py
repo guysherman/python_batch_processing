@@ -1,5 +1,6 @@
+# pylint: disable=C0103
 """
 A framework to make processing batches of files easier
 """
-from RecursiveSearch import RecursiveSearch
-import StandardisedArguments
+from . import RecursiveSearch
+from . import StandardisedArguments
